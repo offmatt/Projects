@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 450px;
+  margin-top: -225px;
+  margin-left: -300px;
+  border-radius: 10px;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: hsl(0, 0%, 100%);
+  /*background-size: cover;
+  background-position: center;*/
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  /*transform: translate(85%,-50%);*/
+	margin: 20px;
+	padding: 0px;
+}
+
+body{
+	background: hsl(30, 38%, 92%);
+	}
+
+.one {
+	width: 300px;
+	background: url("https://live.staticflickr.com/65535/52622963109_9bebcdbf3f_z.jpg");
+	background-size: 300px;
+	height: 450px;
+	Margin: auto 0;
+}
+
+h1, h2 {
+	font-family: Fraunces;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+	font-size: 35px;
+}
+
+button {
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  padding: 6% 35%;
+  color: hsl(0, 0%, 100%);
+	font-size: 12.5px;
+	font-family: Montserrat;
+}
+
+button:hover {
+  background-color: hsl(212, 21%, 14%);
+  cursor: pointer;
+}
+
+.inline {
+	display: inline-block;
+}
+
+h2 {
+	font-size: 30px;
+	margin-top: 6px;
+	margin-bottom: 22px;
+	color: hsl(158, 36%, 37%);
+}
+
+h4.inline {
+	margin-left: 27.50px; 
+  margin-top: 0px;
+	text-decoration: line-through;
+}
+
+p, h4 {
+	font-size: 14px;
+	font-family: Montserrat;
+	color: hsl(228, 12%, 48%);
+}
