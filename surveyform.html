@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta>
+    <link href="offmatt.github.io/projects/surveyform.css" rel="stylesheet"
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking your time to help us improve the platoform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">
+          Name
+          <input id="name" name="name" placeholder="Enter your name" required type="text" value="name" />
+        </label>
+        <label id="email-label" for="email">
+          Email
+          <input id="email"  name="email" placeholder="Enter your email" required type="email" value="email" />
+        </label>
+        <label id="number-label" for="age">
+          Age (optional)
+          <input id="number" name="age" min="13" max="190" placeholder="Age" required type="number" />
+        </label>
+        <label>
+          Which option describes your current role?
+            <select id="dropdown">
+              <option>Select current role</option>
+              <option>Student</option>
+              <option>Full time job</option>
+              <option>Full time learner</option>
+              <option>Prefer not to say</option>
+              <option>Other</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Would you recommend FreeCodeCamp to a friend?</legend>
+          <label for="definetely"><input checked id="definetely" name="recommendation" type="radio" value="definetely" /> Definetely</label>
+          <label for="maybe"><input id="maybe" name="recommendation" value="maybe" type="radio" /> Maybe</label>
+          <label for="not-sure"><input id="not-sure" name="recommendation" value="not-sure" type="radio" /> Not sure</label>
+        </fieldset>
+        <fieldset>
+            <legend>What would you like to see improved? (check all that apply)</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" /> <label for="loving">Front-end Projects</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy" /> <label for="lazy">Back-end Projects</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic" /> <label for="energetic">Data visualization</label>
+          </fieldset>
+          <label for="bio">Any comments or suggestions?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+        </label>
+          <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
